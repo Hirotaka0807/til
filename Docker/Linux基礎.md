@@ -7,3 +7,15 @@
 bash, zsh, shなどが存在する。
 
 # 環境変数
+- cd <path>  
+  Change directory
+- pwd  
+  print working directory
+- mkdir  
+  make new folder
+- touch  
+  make new file
+- ls  
+  list files in working directory
+- rm  
+  remove file or folder
