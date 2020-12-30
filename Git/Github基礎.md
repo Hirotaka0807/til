@@ -1,0 +1,47 @@
+# Gitとは
+- 分散型バージョン管理ツール
+- ファイルの状態を好きな時に更新履歴として保存可能。
+- 一度保存したファイルを、過去の状態に戻したり、編集個所の差分を表示できる。
+
+# Github入門
+
+- リモートリポジトリを作成
+
+  Github上にて
+
+- ローカルリポジトリにクローン。
+
+  Git clone [URL]
+
+- branchを作る。
+  
+  git checkout -b [ブランチ名]
+  mainは全員で共有してから編集するもの。最後にpullしてpushするので、まずは触らない。
+
+- ファイルの編集
+
+  実作業。
+
+- git add [ファイル名]
+  
+  staging。
+  commit（リモートへの反映）を行うファイルをStageに追加。
+
+- git commit -m 'message'
+  
+  stagingしたものをcommit
+
+- git pull origin main
+  
+  一旦pull。最新の更新状況を同期。
+
+- git push origin main 
+  
+  自分の編集状況を反映させ、push。
+
+- Gitの階層
+  
+  Workplace, Stage, Local, Remoteの四階層。
+  1-2がadd, 2-3がcommit, 3-4がpush.
+
+- sourse: https://datawokagaku.com/category/%e8%ac%9b%e5%ba%a7%e4%b8%80%e8%a6%a7/git%e8%b6%85%e5%85%a5%e9%96%80%e8%ac%9b%e5%ba%a7/
