@@ -1,52 +1,52 @@
 # 目標
   Dockerのpullから編集、pushまでの流れと使うコードを簡単に整理する。  
-# Dockerhubからのpull
+## Dockerhubからのpull
 ```
 $docker login 
 $docker pull <image> 
 ```
 
-# コンテナ作成
+## コンテナ作成
 ```
 $docker run -it <image> bash
 ```
 
-# コンテナから出る
+## コンテナから出る
 ```
 $exit
 ```
 
-# docker内のコンテナを参照
+## docker内のコンテナを参照
 ```
 $docker ps -a
 ```
 
-# dockerのコンテナを再起動
+## dockerのコンテナを再起動
 ```
 $docker restart 
 ```
 
-# 既存コンテナを実行
+## 既存コンテナを実行
 ```
 $docker exec -it <container> bash
 ```
 
-# コンテナからimageをコミット
+## コンテナからimageをコミット
 ```
 $docker commit <container> <image>
 ```
 
-# imageの名前を、hub上のリポジトリに合わせて変更
+## imageの名前を、hub上のリポジトリに合わせて変更
 ```
 $docker tag <source> <target>
 ```
 
-# imageをpush
+## imageをpush
 ```
 $docker push <image>
 ```
 
-# imageの削除
+## imageの削除
 ```
 $docker rmi <image>
 ```
