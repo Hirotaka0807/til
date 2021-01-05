@@ -41,5 +41,7 @@ Sourse:https://qiita.com/HirMtsd/items/11d7fbab6dff5599c54b
   
   sourse:https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu  
 
+# 追加資料
+  - 本格的開発環境前に再インストール。参考資料:https://qiita.com/ys22_/items/ff3ed3f79c8a1df3731c
 残りは手順通り進んだ。  
 お疲れさまでした。  
